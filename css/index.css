@@ -1,0 +1,60 @@
+.wapper{
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    border: 1px solid #777;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+.wapper .swapper{
+    /* position: absolute;  */
+    width: 400px;
+    height: 50px;
+    margin: 20px 20px 20px 0px;
+    line-height: 50px;
+    /* text-align: center; */
+}
+.wapper .swapper input{
+    border: 1px solid #666;
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+    padding-left: 20px;
+}
+.wapper .swapper .btn{
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 0px 5px;
+    border-radius: 2px;
+}
+
+.wapper .flwapper li {
+    position: relative;
+    width: 363px;
+    height: 50px;
+    border-bottom: 1px solid #888;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 57px;
+}
+.wapper .flwapper li img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 2px;
+    left: 0px;
+}
+.wapper .swapper .btn.active{
+    background-color: #2196F3;
+    color: #fff;
+}
+.wapper .flwapper li .name{
+    font-size: 19px;
+    font-weight: 500;
+}
+.wapper .flwapper li .des{
+    font-size: 16px;
+    font-weight: 300;
+}
